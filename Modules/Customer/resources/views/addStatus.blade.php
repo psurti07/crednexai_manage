@@ -171,7 +171,7 @@ $('.application-status-form').submit(function(){
                 if (result.type === 'SUCCESS') {
                     toastr.success(result.message);
                     let applicationId = result.data;
-                    let url = 'https://manage.capitalkredit.in/selfapply/applications-details/:userId';
+                    let url = 'https://manage.crednexai.com/selfapply/applications-details/:userId';
                     url = url.replace(':userId', applicationId);
                     setTimeout(function(){
                         window.location.href = url;

@@ -40,7 +40,7 @@
     <script>
         function openAiSensySettingsModal(id){
             $.ajax({
-            url: `https://manage.capitalkredit.in/aisensy-settings/edit/${id}`,
+            url: `https://manage.crednexai.com/aisensy-settings/edit/${id}`,
             type: 'GET',
             contentType: "application/json",
             headers: {

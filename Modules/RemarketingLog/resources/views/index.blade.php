@@ -86,7 +86,7 @@
         
         function openRemarketingModal(remarketingId){
             $.ajax({
-            url: `https://manage.capitalkredit.in/remarketing-log/details/${remarketingId}`,
+            url: `https://manage.crednexai.com/remarketing-log/details/${remarketingId}`,
             type: 'GET',
             contentType: "application/json",
             headers: {

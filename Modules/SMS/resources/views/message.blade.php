@@ -68,7 +68,7 @@
         
         function openModal(){
             $.ajax({
-                url: "https://manage.capitalkredit.in/sms/send-test-sms",
+                url: "https://manage.crednexai.com/sms/send-test-sms",
                 type: 'GET',
                 contentType: "application/json",
                 headers: {

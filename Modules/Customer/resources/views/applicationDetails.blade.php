@@ -286,7 +286,7 @@
         }).then((willDelete) => {
             if (willDelete) {
                 $.ajax({
-                    url: 'https://manage.capitalkredit.in/selfapply/applications-details/delete-remarks',
+                    url: 'https://manage.crednexai.com/selfapply/applications-details/delete-remarks',
                     type: 'POST',
                     data:  JSON.stringify({id: remarks_id}),
                     contentType: "application/json",
@@ -315,7 +315,7 @@
         }).then((willDelete) => {
             if (willDelete) {
                 $.ajax({
-                    url: 'https://manage.capitalkredit.in/selfapply/applications-details/update-process',
+                    url: 'https://manage.crednexai.com/selfapply/applications-details/update-process',
                     type: 'POST',
                     data:  JSON.stringify({id: userId, appid: appId}),
                     contentType: "application/json",
