@@ -20,16 +20,24 @@
                             <label>Sender Id's</label>
                             <div class="form-check-size rtl-input">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input me-2" id="inlineRadio1" type="radio" name="senderid" value="EASYAI" checked="">
-                                    <label class="form-check-label" for="inlineRadio1">EASYAI</label>
+                                    <input class="form-check-input me-2" id="inlineRadio1" type="radio" name="senderid" value="CREDNX" checked="">
+                                    <label class="form-check-label" for="inlineRadio1">CREDNX</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input me-2" id="inlineRadio2" type="radio" name="senderid" value="AILONS">
-                                    <label class="form-check-label" for="inlineRadio2">AILONS</label>
+                                    <input class="form-check-input me-2" id="inlineRadio2" type="radio" name="senderid" value="CRDNEX">
+                                    <label class="form-check-label" for="inlineRadio2">CRDNEX</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input me-2" id="inlineRadio3" type="radio" name="senderid" value="ESYAIL">
-                                    <label class="form-check-label" for="inlineRadio3">ESYAIL</label>
+                                    <input class="form-check-input me-2" id="inlineRadio3" type="radio" name="senderid" value="CADNEX">
+                                    <label class="form-check-label" for="inlineRadio3">CADNEX</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input me-2" id="inlineRadio4" type="radio" name="senderid" value="CDNXAI">
+                                    <label class="form-check-label" for="inlineRadio4">CDNXAI</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input me-2" id="inlineRadio5" type="radio" name="senderid" value="CRDNXA">
+                                    <label class="form-check-label" for="inlineRadio5">CRDNXA</label>
                                 </div>
                             </div>
                         </div>
