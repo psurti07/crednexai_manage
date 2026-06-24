@@ -54,7 +54,7 @@ class LoanAgentCustomerDataTable extends DataTable
             })
             ->where('isUser', 2)
             ->where('isDelete', 0)
-            ->orderByDesc('id');
+            ->orderByDesc('rec_date');
             
         if($agent != ''){
             if($agent){
