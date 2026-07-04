@@ -25,7 +25,7 @@ if(!function_exists('sendSingleSMS')){
     	}
     	
         // Construct the API URL
-        $api_url = "http://m.onlinebusinessbazaar.in/sendsms.jsp?user={$username}&password={$password}&senderid={$sender_id}&mobiles={$mobile}&sms={$sms_text}";
+        $api_url = "43.204.206.165/sendsms.jsp?user={$username}&password={$password}&senderid={$sender_id}&mobiles={$mobile}&sms={$sms_text}";
 
         // Submit the request to the server
         $response = Http::get($api_url);
@@ -59,8 +59,10 @@ if(!function_exists('sendDynamicSMS')){
         // Construct the API URL
         if($tempId!=''){
             $api_url = "http://m.onlinebusinessbazaar.in/sendsms.jsp?user={$username}&password={$password}&senderid={$senderId}&mobiles={$mobile}&sms={$sms_text}&tempid={$tempId}";
+            // $api_url = "43.204.206.165/sendsms.jsp?user={$username}&password={$password}&senderid={$senderId}&mobiles={$mobile}&sms={$sms_text}&tempid={$tempId}";
         } else {
             $api_url = "http://m.onlinebusinessbazaar.in/sendsms.jsp?user={$username}&password={$password}&senderid={$senderId}&mobiles={$mobile}&sms={$sms_text}";
+            // $api_url = "43.204.206.165/sendsms.jsp?user={$username}&password={$password}&senderid={$senderId}&mobiles={$mobile}&sms={$sms_text}";
         }
         // Submit the request to the server
         $response = Http::get($api_url);
