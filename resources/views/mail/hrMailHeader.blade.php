@@ -414,7 +414,7 @@
                                                                                             <a target="_blank"
                                                                                                 href="https://crednexai.com/"
                                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                                            <img src="https://crednexai.com/front/images/logo/logo.png"
+                                                                                            <img src="https://crednexai.com/public/front/images/logo/logo.png"
                                                                                                 alt="crednexai"
                                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                                 width="190"
@@ -460,9 +460,9 @@
                                                                     role="presentation"
                                                                     >
                                                                     <tr>
-                                                                        <td align="left" style="padding: 20px; margin: 0; line-height: 2rem;border: 1px solid green;
+                                                                        <td align="left" style="padding: 20px; margin: 0; line-height: 2rem;border: 1px solid #0c3e65;
                                                                             border-radius: 12px;
-                                                                            background-color: #E9F2FB;">
+                                                                            background-color: #f3ead6;">
                                                                             @yield('content')
                                                                         </td>
                                                                     </tr>
